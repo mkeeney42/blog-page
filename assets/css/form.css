@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 7vh;
+    border-bottom: double 7px black;
+}
+
+header>button{
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 93vh;
+
+}
+
+main>section{
+    display: flex;
+    flex: 1 1 50%;
+
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro h2{
+    font-size: 3rem;
+    color: white;
+
+}
+
+.intro>div{
+    background-color: yellow;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#fff,
+    #ffb100,
+    #222);
+}
+
+.blog-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: double 7px black;
+}
+
+.blog-form>h2{
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 40px;
+}
+
+input,textarea,label,form>button{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+
+form>label{
+    font-weight: bold;
+
+}
+form>button{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.dark .blog-form{
+    border-left: double 7px white;
+}

@@ -1,0 +1,49 @@
+header{
+    border-bottom: double 12px black;
+}
+header a{
+    text-decoration: none;
+    
+}
+main{
+    flex-direction: column;
+    min-height: 86vh;
+
+}
+.card{
+    border: 1px solid black;
+    margin: 20px;
+}
+.card-header{
+    font-size: 1rem;
+    margin: 10px;
+
+}
+.card-body{
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
+footer>p{
+    text-align: center;
+    margin: 12px 0;
+}
+footer{
+    border-top: double 12px black;
+    height: 7vh;
+
+}
+footer>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.dark * {
+    border-color: white;
+}
+
+.light * {
+    border-color: black;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 7vh;
+    border-bottom: double 7px black;
+    align-items: center;
+}
+
+header>button{
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 93vh;
+
+}
+
+.light header, .light footer, .light main{
+background-color: white;
+color: black;
+}
+
+.dark header, .dark footer, .dark main{
+    background-color: black;
+    color: white;
+}
+
+.dark * {
+    border-color: white;
+}
+
+.light * {
+    border-color: black;
+}
